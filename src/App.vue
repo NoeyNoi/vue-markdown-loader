@@ -4,6 +4,8 @@
 
 <script>
 import Doc from './components/test.md'
+import 'highlight.js/styles/base16/dracula.css'
+
 export default {
   name: 'App',
   components: {

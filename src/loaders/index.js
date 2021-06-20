@@ -41,6 +41,8 @@ function wrapper (content) {
     return `
 <script>
 import { h } from 'vue';
+import 'highlight.js/styles/base16/dracula.css'
+
 const content = unescape(\`${content}\`);
 export default {
 ${sharedVueOptions}

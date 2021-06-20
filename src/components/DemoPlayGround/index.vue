@@ -34,7 +34,7 @@
 
 <script>
 import copy from 'copy-text-to-clipboard'
-import 'highlight.js/styles/base16/dracula.css'
+// import 'highlight.js/styles/base16/dracula.css'
 
 export default {
   name: 'DemoPlayground',
@@ -66,6 +66,8 @@ export default {
   }
 }
 </script>
+
+<style lang="less" src="../../assets/style/highlight.less" />
 
 <style scoped src="../../assets/icon-font/iconfont.css" />
 
@@ -131,11 +133,11 @@ export default {
     &--content {
       border-top: 1px dashed #ebedf1;
       :deep(pre) {
-        border-radius: 0 0 5px 5px;
+        border-radius: 0;
         margin: 0;
-        padding: 16px;
-        background: #282936;
-        color: white;
+        // padding: 16px;
+        // background: #282936;
+        // color: white;
       }
       :deep(.language-html) {
         border-radius: 0;
